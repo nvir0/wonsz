@@ -18,7 +18,10 @@ mult_matrix = np.multiply(matrix, new_matrix)
 # Sum of all elements in element-wise multiplied matrix
 sum_mult_matrix = np.sum(mult_matrix)
 
+
 dot_product = np.dot(a,b)
+cross_prod = np.cross(a,b)
+
 
 print(f"Original matrix: {matrix}")
 print(f"Reshaped 1D array: {arr}")
@@ -28,3 +31,4 @@ print(f"Reshaped 2D matrix: {new_matrix}")
 print(f"Element-wise multiplied matrix: {mult_matrix}")
 print(f"Sum of all elements in element-wise multiplied matrix: {sum_mult_matrix}")
 print(f"Dot product matrix: {dot_product}")
+print(f"Cross prod: {cross_prod}")
